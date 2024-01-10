@@ -1,0 +1,48 @@
+.addproject{
+    border-radius: 10px;
+    background-color: white;
+    width:300px;
+    max-height: 80%;
+    font-family: 'PT Sans', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.con{
+    overflow-y: scroll;
+    max-height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.item{
+    background-color:yellow;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.item div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

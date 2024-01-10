@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=PT+Sans&family=Unlock&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Unlock', cursive;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  font-family: 'Londrina Shadow', cursive;
+
+}
+
+.sent{
+  width: 100%;
+  height: 100vh;
+  background-color: azure;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  z-index: 500;
+}

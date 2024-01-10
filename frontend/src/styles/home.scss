@@ -1,0 +1,73 @@
+.home {
+    background-color:azure;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+    padding: 20px;
+
+    .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right {
+        font-family: 'Londrina Shadow', cursive;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-size: 2rem;
+        padding-top: 50px;
+
+        .instructions {
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Unlock', cursive;
+            color: gray;
+
+
+            ul {
+                list-style: none;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+.nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    background-color: white;
+    z-index: 200;
+}
+
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    font-family: 'Unlock', cursive;
+    padding: 12px;
+    margin: 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav .app-link{
+    background-color: green;
+    color: white;
+}
+
+.nav .portfolio-link{
+    background-color: blueviolet;
+    color: white;
+}
